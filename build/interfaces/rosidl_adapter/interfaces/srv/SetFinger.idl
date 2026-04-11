@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/SetFinger.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct SetFinger_Request {
+      string finger_name;
+
+      boolean state;
+    };
+    struct SetFinger_Response {
+      boolean success;
+    };
+  };
+};

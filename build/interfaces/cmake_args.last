@@ -1,0 +1,1 @@
+['-DCMAKE_PREFIX_PATH=/Users/StevenOmole/miniconda3/envs/ros2_setup', '-DPython3_EXECUTABLE=/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/python3', '-DPython3_FIND_STRATEGY=LOCATION', '-DPython3_FIND_FRAMEWORK=NEVER']

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<robot name="robotic_hand">
+
+  <!-- BASE -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.02"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- FUNCTION TEMPLATE -->
+  <!-- Each finger = 1 link + 1 joint -->
+
+  <!-- THUMB -->
+  <link name="thumb_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.08" radius="0.01"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="thumb_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="thumb_link"/>
+    <origin xyz="0.03 -0.03 0.02" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="0" upper="1.57" effort="1" velocity="1"/>
+  </joint>
+
+  <!-- INDEX -->
+  <link name="index_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="index_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="index_link"/>
+    <origin xyz="0.02 0.0 0.02"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="0" upper="1.57" effort="1" velocity="1"/>
+  </joint>
+
+  <!-- MIDDLE -->
+  <link name="middle_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.11" radius="0.01"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="middle_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="middle_link"/>
+    <origin xyz="0 0.02 0.02"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="0" upper="1.57" effort="1" velocity="1"/>
+  </joint>
+
+  <!-- RING -->
+  <link name="ring_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="ring_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="ring_link"/>
+    <origin xyz="-0.02 0.0 0.02"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="0" upper="1.57" effort="1" velocity="1"/>
+  </joint>
+
+  <!-- LITTLE -->
+  <link name="little_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.08" radius="0.01"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="little_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="little_link"/>
+    <origin xyz="-0.03 -0.02 0.02"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="0" upper="1.57" effort="1" velocity="1"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,39 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_fastrtps_c/interfaces",
+  "template_dir": "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces:msg/FingerState.idl",
+    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces:srv/SetFinger.idl",
+    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces:action/Gesture.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros2_setup/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros2_setup/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros2_setup/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros2_setup/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/Users/StevenOmole/miniconda3/envs/ros2_setup/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/Users/StevenOmole/miniconda3/envs/ros2_setup/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/Users/StevenOmole/miniconda3/envs/ros2_setup/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces/msg/FingerState.idl",
+    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces/srv/SetFinger.idl",
+    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces/action/Gesture.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/action_msgs/msg/GoalInfo.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/action_msgs/msg/GoalStatus.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/action_msgs/msg/GoalStatusArray.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/action_msgs/srv/CancelGoal.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/builtin_interfaces/msg/Duration.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/builtin_interfaces/msg/Time.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros2_setup/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

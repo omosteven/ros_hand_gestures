@@ -1,0 +1,77 @@
+### ROS2 Based Robotic Hand Gestures
+
+## File Structure
+# build
+# install
+# log
+## src
+
+## Interfaces
+# Custom Message  -> Topics
+# Custom Service -> Commands
+# Custom Actions -> Gestures
+
+#TESTING
+
+<!-- colcon build --symlink-install --cmake-args -DPython3_EXECUTABLE=$(which python3)
+ -->
+ <!-- colcon build --packages-select interfaces --cmake-args \
+  -DPython3_EXECUTABLE=$(which python3) \
+  -DPython_EXECUTABLE=$(which python3) \
+  -DPython3_NUMPY_INCLUDE_DIRS=$CONDA_PREFIX/lib/python3.11/site-packages/numpy/core/include -->
+
+
+# start hand controller node
+ <!-- ros2 run controller controller -->
+# list all topics
+ros2 topic echo /hand/finger_statesclear
+<!--  -->
+# set  a particular finger state via service  call
+<!-- ros2 service call /set_finger interfaces/srv/SetFinger "{finger_name: 'index', state: true}" -->
+
+
+ros2 action send_goal /gesture interfaces/action/Gesture "{gesture_name: 'PEACE'}"
+
+<!-- colcon build --packages-select interfaces --cmake-args \
+  -DPython3_EXECUTABLE=$(which python3) \
+  -DPython_EXECUTABLE=$(which python3) \
+  -DPython3_NUMPY_INCLUDE_DIRS=$CONDA_PREFIX/lib/python3.11/site-packages/numpy/core/include
+ -->
+
+colcon build --packages-select interfaces --cmake-args \
+  -DPython3_EXECUTABLE=$(which python3) \
+  -DPython_EXECUTABLE=$(which python3) \
+  -DPython3_NUMPY_INCLUDE_DIRS=/Users/StevenOmole/miniconda3/envs/ros2_setup/lib/python3.12/site-packages/numpy/_core/include
+
+# full system
+colcon build
+
+source install/setup.zsh
+
+ros2 run controller controller
+
+ros2 run controller action_server
+
+ros2 run controller joint_bridge
+
+ros2 launch description display.launch.py
+Configure Rviz: FixedFrame -> base_link 2.0 Add -> RobotModel -> Ok. Description Source->Topic Description Topic -> robot_description
+
+
+ros2 action send_goal /gesture interfaces/action/Gesture "{gesture_name: 'PEACE'}"
+
+PATH="$CONDA_PREFIX/bin:$PATH" colcon build --packages-select controller
+
+colcon build --cmake-args \
+  -DPython3_EXECUTABLE=$(which python3) \
+  -DPython_EXECUTABLE=$(which python3) \
+  -DPython3_NUMPY_INCLUDE_DIRS=/Users/StevenOmole/miniconda3/envs/ros2_setup/lib/python3.12/site-packages/numpy/_core/include
+
+head -n 1 install/controller/lib/controller/controller
+
+colcon build --cmake-args \
+  -DPython3_EXECUTABLE=$(which python3) \
+  -DPython3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")
+
+head -n 1 install/controller/lib/controller/joint_bridge
+PATH="$CONDA_PREFIX/bin:$PATH" colcon build --packages-select controller

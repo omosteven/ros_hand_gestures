@@ -1,0 +1,59 @@
+[0.704s] Invoking command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller CONDA_PROMPT_MODIFIER=(ros2_setup) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/cmake /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/description -DCMAKE_PREFIX_PATH=/Users/StevenOmole/miniconda3/envs/ros2_setup -DPython3_EXECUTABLE=/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/python3 -DPython3_FIND_STRATEGY=LOCATION -DPython3_FIND_FRAMEWORK=NEVER -DCMAKE_INSTALL_PREFIX=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description
+[0.870s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.870s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.871s]   CMake.
+[0.871s] 
+[0.872s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.872s]   to tell CMake that the project requires at least <min> but has been updated
+[0.873s]   to work with policies introduced by <max> or earlier.
+[0.873s] 
+[0.873s] 
+[4.216s] -- The C compiler identification is Clang 19.1.7
+[7.880s] -- The CXX compiler identification is Clang 19.1.7
+[8.339s] -- Detecting C compiler ABI info
+[11.175s] -- Detecting C compiler ABI info - done
+[11.205s] -- Check for working C compiler: /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/x86_64-apple-darwin13.4.0-clang - skipped
+[11.207s] -- Detecting C compile features
+[11.210s] -- Detecting C compile features - done
+[11.240s] -- Detecting CXX compiler ABI info
+[14.128s] -- Detecting CXX compiler ABI info - done
+[14.160s] -- Check for working CXX compiler: /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/x86_64-apple-darwin13.4.0-clang++ - skipped
+[14.161s] -- Detecting CXX compile features
+[14.163s] -- Detecting CXX compile features - done
+[14.296s] -- Found ament_cmake: 1.3.13 (/Users/StevenOmole/miniconda3/envs/ros2_setup/share/ament_cmake/cmake)
+[15.328s] -- Found Python3: /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/python3 (found version "3.12.13") found components: Interpreter
+[16.891s] -- Found ament_lint_auto: 0.12.15 (/Users/StevenOmole/miniconda3/envs/ros2_setup/share/ament_lint_auto/cmake)
+[17.831s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.834s] -- Added test 'lint_cmake' to check CMake code style
+[17.838s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.845s] -- Added test 'xmllint' to check XML markup files
+[17.852s] -- Configuring done (17.0s)
+[17.903s] -- Generating done (0.0s)
+[17.913s] -- Build files have been written to: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description
+[17.927s] Invoked command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller CONDA_PROMPT_MODIFIER=(ros2_setup) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/cmake /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/description -DCMAKE_PREFIX_PATH=/Users/StevenOmole/miniconda3/envs/ros2_setup -DPython3_EXECUTABLE=/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/python3 -DPython3_FIND_STRATEGY=LOCATION -DPython3_FIND_FRAMEWORK=NEVER -DCMAKE_INSTALL_PREFIX=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description
+[17.935s] Invoking command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller CONDA_PROMPT_MODIFIER=(ros2_setup) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/cmake --build /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description -- -j8 -l8
+[18.427s] Invoked command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller CONDA_PROMPT_MODIFIER=(ros2_setup) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/cmake --build /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description -- -j8 -l8
+[18.526s] Invoking command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller CONDA_PROMPT_MODIFIER=(ros2_setup) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/cmake --install /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description
+[18.607s] -- Install configuration: ""
+[18.608s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/launch
+[18.609s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/launch/display.launch.py
+[18.610s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/urdf
+[18.610s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/urdf/hand.urdf
+[18.611s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/rviz
+[18.611s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/rviz/hand.rviz
+[18.612s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/ament_index/resource_index/package_run_dependencies/description
+[18.613s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/ament_index/resource_index/parent_prefix_path/description
+[18.614s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/environment/ament_prefix_path.sh
+[18.615s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/environment/ament_prefix_path.dsv
+[18.616s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/environment/path.sh
+[18.617s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/environment/path.dsv
+[18.618s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/local_setup.bash
+[18.619s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/local_setup.sh
+[18.620s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/local_setup.zsh
+[18.622s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/local_setup.dsv
+[18.623s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/package.dsv
+[18.624s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/ament_index/resource_index/packages/description
+[18.626s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/cmake/descriptionConfig.cmake
+[18.627s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/cmake/descriptionConfig-version.cmake
+[18.627s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/package.xml
+[18.632s] Invoked command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller CONDA_PROMPT_MODIFIER=(ros2_setup) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros2_setup/bin/cmake --install /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/description

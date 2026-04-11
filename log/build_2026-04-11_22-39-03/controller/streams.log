@@ -1,0 +1,39 @@
+[2.114s] Invoking command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/controller': CONDA_PROMPT_MODIFIER=(ros2_setup) PYTHONPATH=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/prefix_override:/Users/StevenOmole/miniconda3/envs/ros2_setup/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /Applications/Xcode.app/Contents/Developer/usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build install --record /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/install.log --single-version-externally-managed install_data
+[3.553s] /Users/StevenOmole/miniconda3/envs/ros2_setup/lib/python3.12/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[3.553s]   warnings.warn(msg)
+[4.389s] running egg_info
+[4.507s] creating ../../build/controller/controller.egg-info
+[4.507s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[4.510s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[4.511s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[4.512s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[4.512s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[4.514s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[4.693s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[4.697s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[4.698s] running build
+[4.698s] running build_py
+[4.698s] creating /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[4.699s] copying controller/__init__.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[4.700s] copying controller/joint_bridge_node.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[4.701s] copying controller/action_server.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[4.703s] copying controller/controller_node.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[4.706s] running install
+[4.723s] running install_lib
+[4.806s] creating /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[4.807s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/__init__.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[4.808s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/joint_bridge_node.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[4.808s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/action_server.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[4.809s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/controller_node.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[4.812s] running install_data
+[4.812s] creating /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/share/ament_index/resource_index/packages
+[4.813s] copying resource/controller -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/share/ament_index/resource_index/packages
+[4.814s] copying package.xml -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/share/controller
+[4.815s] running install_egg_info
+[5.014s] Copying ../../build/controller/controller.egg-info to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller-0.0.0-py3.9.egg-info
+[5.023s] running install_scripts
+[5.199s] Installing action_server script to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller
+[5.201s] Installing controller script to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller
+[5.205s] Installing joint_bridge script to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller
+[5.207s] writing list of installed files to '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/install.log'
+[5.289s] Invoked command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/controller' returned '0': CONDA_PROMPT_MODIFIER=(ros2_setup) PYTHONPATH=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/prefix_override:/Users/StevenOmole/miniconda3/envs/ros2_setup/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /Applications/Xcode.app/Contents/Developer/usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build install --record /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/install.log --single-version-externally-managed install_data
