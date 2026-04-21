@@ -1,0 +1,5 @@
+string gesture_name
+---
+bool success
+---
+string current_state

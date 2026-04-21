@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/cmake_install.cmake",
+		"/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/interfaces__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
