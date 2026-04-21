@@ -1,8 +1,0 @@
-{
-  "package_name": "interfaces",
-  "non_idl_tuples": [
-    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/interfaces:msg/FingerState.msg",
-    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/interfaces:srv/SetFinger.srv",
-    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/interfaces:action/Gesture.action"
-  ]
-}
