@@ -56,10 +56,10 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=
+CMAKE_CXX_FLAGS:STRING=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -74,10 +74,10 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/clang
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=
+CMAKE_C_FLAGS:STRING=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -pipe -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -95,7 +95,7 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=
+CMAKE_EXE_LINKER_FLAGS:STRING=-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
@@ -129,7 +129,7 @@ CMAKE_MAKE_PROGRAM:FILEPATH=/usr/local/bin/gmake
 
 //Flags used by the linker during the creation of modules during
 // all build types.
-CMAKE_MODULE_LINKER_FLAGS:STRING=
+CMAKE_MODULE_LINKER_FLAGS:STRING=-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib
 
 //Flags used by the linker during the creation of modules during
 // DEBUG builds.
@@ -165,7 +165,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
-CMAKE_OSX_SYSROOT:STRING=
+CMAKE_OSX_SYSROOT:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 
 //Value Computed by CMake
 CMAKE_PROJECT_COMPAT_VERSION:STATIC=
@@ -190,7 +190,7 @@ CMAKE_READELF:FILEPATH=CMAKE_READELF-NOTFOUND
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
-CMAKE_SHARED_LINKER_FLAGS:STRING=
+CMAKE_SHARED_LINKER_FLAGS:STRING=-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib
 
 //Flags used by the linker during the creation of shared libraries
 // during DEBUG builds.
@@ -251,7 +251,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 PYTHON_CONFIG_EXECUTABLE:FILEPATH=/Users/StevenOmole/miniconda3/envs/ros_env/bin/python3-config
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/Users/StevenOmole/miniconda3/envs/ros_env/bin/python
+PYTHON_EXECUTABLE:FILEPATH=/Users/StevenOmole/miniconda3/envs/ros_env/bin/python3
 
 //Path to a library.
 PYTHON_LIBRARY:FILEPATH=/Users/StevenOmole/miniconda3/envs/ros_env/lib/libpython3.11.dylib
@@ -631,7 +631,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/StevenOmole/miniconda3/env
 //Details about finding PythonExtra
 FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[.so][/Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11;/Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11][/Users/StevenOmole/miniconda3/envs/ros_env/lib/libpython3.11.dylib][cpython-311-darwin][.cpython-311-darwin][v()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/Users/StevenOmole/miniconda3/envs/ros_env/bin/python][v3.11.15(3.6)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/Users/StevenOmole/miniconda3/envs/ros_env/bin/python3][v3.11.15(3.6)]
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //The directory for Python library installation. This needs to

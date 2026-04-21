@@ -39,6 +39,8 @@ ros2 run controller joint_bridge
 ros2 launch description display.launch.py
 Configure Rviz: FixedFrame -> base_link 2.0 Add -> RobotModel -> Ok. Description Source->Topic Description Topic -> robot_description
 
+ros2 run controller keyboard_control
+
 ros2 action send_goal /gesture interfaces/action/Gesture "{gesture_name: 'PEACE'}"
 ros2 action send_goal /gesture interfaces/action/Gesture "{gesture_name: 'THUMB_UP'}"
 ros2 action send_goal /gesture interfaces/action/Gesture "{gesture_name: 'HI_FIVE'}"

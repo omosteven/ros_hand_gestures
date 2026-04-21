@@ -1,0 +1,330 @@
+[0.558s] Invoking command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller:/Users/StevenOmole/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/interfaces -DPython_EXECUTABLE=/Users/StevenOmole/miniconda3/envs/ros_env/bin/python -DCMAKE_INSTALL_PREFIX=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces
+[0.703s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.703s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.703s]   CMake.
+[0.703s] 
+[0.704s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.704s]   to tell CMake that the project requires at least <min> but has been updated
+[0.704s]   to work with policies introduced by <max> or earlier.
+[0.704s] 
+[0.704s] 
+[1.909s] -- The C compiler identification is AppleClang 17.0.0.17000013
+[2.288s] -- The CXX compiler identification is AppleClang 17.0.0.17000013
+[2.451s] -- Detecting C compiler ABI info
+[3.247s] -- Detecting C compiler ABI info - done
+[3.293s] -- Check for working C compiler: /usr/bin/clang - skipped
+[3.294s] -- Detecting C compile features
+[3.296s] -- Detecting C compile features - done
+[3.322s] -- Detecting CXX compiler ABI info
+[4.228s] -- Detecting CXX compiler ABI info - done
+[4.283s] -- Check for working CXX compiler: /usr/bin/clang++ - skipped
+[4.284s] -- Detecting CXX compile features
+[4.285s] -- Detecting CXX compile features - done
+[4.383s] -- Found ament_cmake: 1.3.12 (/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake/cmake)
+[4.847s] -- Found Python3: /Users/StevenOmole/miniconda3/envs/ros_env/bin/python3 (found version "3.11.15") found components: Interpreter
+[5.818s] -- Found rosidl_default_generators: 1.2.0 (/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_default_generators/cmake)
+[5.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.960s] -- Found rosidl_adapter: 3.1.6 (/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_adapter/cmake)
+[6.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.208s] -- Found ament_cmake_ros: 0.10.0 (/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake_ros/cmake)
+[9.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.706s] -- Found python_cmake_module: 0.10.0 (/Users/StevenOmole/miniconda3/envs/ros_env/share/python_cmake_module/cmake)
+[10.711s] CMake Warning (dev) at /Users/StevenOmole/miniconda3/envs/ros_env/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[10.711s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[10.711s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[10.711s]   the cmake_policy command to set the policy and suppress this warning.
+[10.712s] 
+[10.712s] Call Stack (most recent call first):
+[10.712s]   /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:33 (find_package)
+[10.712s]   /Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[10.712s]   /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[10.712s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[10.712s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[10.713s] 
+[10.755s] -- Found PythonInterp: /Users/StevenOmole/miniconda3/envs/ros_env/bin/python3 (found suitable version "3.11.15", minimum required is "3.6")
+[10.813s] -- Using PythonExtra_INCLUDE_DIRS: /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11;/Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11
+[10.946s] -- Using PythonExtra_LIBRARIES: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libpython3.11.dylib
+[11.002s] -- Found PythonExtra: .so
+[12.216s] -- Found Python: /Users/StevenOmole/miniconda3/envs/ros_env/bin/python (found version "3.11.15") found components: Interpreter Development NumPy Development.Module Development.Embed
+[12.354s] -- Found ament_lint_auto: 0.12.12 (/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_lint_auto/cmake)
+[12.611s] -- Added test 'lint_cmake' to check CMake code style
+[12.617s] -- Added test 'xmllint' to check XML markup files
+[12.627s] -- Configuring done (12.0s)
+[12.837s] -- Generating done (0.2s)
+[12.918s] -- Build files have been written to: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces
+[12.930s] Invoked command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller:/Users/StevenOmole/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/interfaces -DPython_EXECUTABLE=/Users/StevenOmole/miniconda3/envs/ros_env/bin/python -DCMAKE_INSTALL_PREFIX=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces
+[12.936s] Invoking command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller:/Users/StevenOmole/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake --build /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces -- -j8 -l8
+[13.359s] [  2%] Generating C code for ROS interfaces
+[13.493s] [  4%] Generating C++ code for ROS interfaces
+[13.575s] [  4%] Built target ament_cmake_python_copy_interfaces
+[14.562s] running egg_info
+[14.644s] creating interfaces.egg-info
+[14.645s] writing interfaces.egg-info/PKG-INFO
+[14.647s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[14.648s] writing top-level names to interfaces.egg-info/top_level.txt
+[14.649s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[14.998s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[15.000s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[15.139s] [  6%] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_finger__functions.c.o
+[15.144s] [  8%] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/finger_state__functions.c.o
+[15.153s] [ 10%] Building C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/gesture__functions.c.o
+[15.187s] [ 10%] Built target interfaces__cpp
+[15.199s] [ 10%] Built target ament_cmake_python_build_interfaces_egg
+[15.320s] [ 14%] Generating C++ type support for eProsima Fast-RTPS
+[15.320s] [ 14%] Generating C++ type support dispatch for ROS interfaces
+[15.326s] [ 17%] Generating C++ introspection for ROS interfaces
+[16.008s] [ 19%] Linking C shared library libinterfaces__rosidl_generator_c.dylib
+[16.225s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[16.261s] [ 21%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/finger_state__type_support.cpp.o
+[16.279s] [ 23%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_finger__type_support.cpp.o
+[16.280s] [ 25%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/gesture__type_support.cpp.o
+[16.424s] [ 27%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/finger_state__type_support.cpp.o
+[16.429s] [ 29%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_finger__type_support.cpp.o
+[16.464s] [ 29%] Built target interfaces__rosidl_generator_c
+[16.476s] [ 31%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/gesture__type_support.cpp.o
+[16.641s] [ 34%] Generating C type support for eProsima Fast-RTPS
+[16.678s] [ 36%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/finger_state__type_support.cpp.o
+[18.406s] [ 38%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_finger__type_support.cpp.o
+[18.426s] [ 40%] Generating C introspection for ROS interfaces
+[18.522s] [ 42%] Generating C type support dispatch for ROS interfaces
+[18.566s] [ 44%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/gesture__type_support.cpp.o
+[18.642s] [ 46%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/finger_state__type_support_c.cpp.o
+[18.840s] [ 48%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_finger__type_support_c.cpp.o
+[18.924s] [ 51%] Linking CXX shared library libinterfaces__rosidl_typesupport_cpp.dylib
+[19.149s] [ 53%] Linking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.dylib
+[19.150s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[19.352s] [ 53%] Built target interfaces__rosidl_typesupport_cpp
+[19.354s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[19.543s] [ 55%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/gesture__type_support_c.cpp.o
+[19.552s] [ 55%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[19.761s] [ 57%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/finger_state__type_support.cpp.o
+[19.857s] [ 59%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_finger__type_support.cpp.o
+[20.037s] [ 61%] Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/gesture__type_support.cpp.o
+[20.053s] [ 63%] Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/finger_state__type_support.c.o
+[20.144s] [ 65%] Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_finger__type_support.c.o
+[20.339s] [ 68%] Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/gesture__type_support.c.o
+[20.389s] [ 70%] Linking CXX shared library libinterfaces__rosidl_typesupport_c.dylib
+[20.580s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[20.677s] [ 72%] Linking C shared library libinterfaces__rosidl_typesupport_introspection_c.dylib
+[20.762s] [ 72%] Built target interfaces__rosidl_typesupport_c
+[20.835s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[20.986s] [ 72%] Built target interfaces__rosidl_typesupport_introspection_c
+[21.062s] [ 74%] Linking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.dylib
+[21.341s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[21.499s] [ 74%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[21.575s] [ 76%] Linking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.dylib
+[21.700s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[21.829s] [ 76%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[22.031s] [ 76%] Built target interfaces
+[22.237s] [ 78%] Generating Python code for ROS interfaces
+[23.542s] [ 78%] Built target interfaces__py
+[23.753s] [ 80%] Building C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o
+[23.754s] [ 82%] Building C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o
+[23.758s] [ 85%] Building C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o
+[24.365s] [ 87%] Linking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib
+[24.515s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[24.664s] [ 87%] Built target interfaces__rosidl_generator_py
+[24.879s] [ 89%] Building C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[24.882s] [ 91%] Building C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o
+[24.885s] [ 93%] Building C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[25.264s] [ 95%] Linking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-darwin.so
+[25.269s] [ 97%] Linking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-311-darwin.so
+[25.271s] [100%] Linking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-311-darwin.so
+[25.415s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[25.415s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[25.416s] ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
+[25.580s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[25.584s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[25.585s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[25.681s] Invoked command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller:/Users/StevenOmole/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake --build /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces -- -j8 -l8
+[25.689s] Invoking command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller:/Users/StevenOmole/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake --install /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces
+[25.761s] -- Install configuration: ""
+[25.762s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[25.762s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces
+[25.763s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg
+[25.764s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[25.764s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail
+[25.765s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__functions.c
+[25.765s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__functions.h
+[25.766s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__type_support.h
+[25.766s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__struct.h
+[25.767s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/finger_state.h
+[25.768s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action
+[25.768s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail
+[25.769s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__functions.h
+[25.769s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__functions.c
+[25.769s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__type_support.h
+[25.770s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__struct.h
+[25.771s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/gesture.h
+[25.771s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv
+[25.772s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/set_finger.h
+[25.772s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail
+[25.772s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__functions.h
+[25.773s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__type_support.h
+[25.773s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__functions.c
+[25.774s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__struct.h
+[25.775s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/libinterfaces__rosidl_generator_c.dylib
+[25.817s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces
+[25.817s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg
+[25.818s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail
+[25.819s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__rosidl_typesupport_fastrtps_c.h
+[25.820s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.820s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action
+[25.821s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail
+[25.821s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__rosidl_typesupport_fastrtps_c.h
+[25.821s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv
+[25.822s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail
+[25.822s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__rosidl_typesupport_fastrtps_c.h
+[25.822s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.dylib
+[25.854s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces
+[25.855s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg
+[25.855s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail
+[25.855s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__rosidl_typesupport_introspection_c.h
+[25.856s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__type_support.c
+[25.856s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.856s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action
+[25.857s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail
+[25.857s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__type_support.c
+[25.858s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__rosidl_typesupport_introspection_c.h
+[25.858s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv
+[25.858s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail
+[25.859s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__rosidl_typesupport_introspection_c.h
+[25.859s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__type_support.c
+[25.859s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.dylib
+[25.893s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.dylib
+[25.926s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces
+[25.927s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg
+[25.927s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail
+[25.928s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__type_support.hpp
+[25.928s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__struct.hpp
+[25.928s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__builder.hpp
+[25.928s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__traits.hpp
+[25.929s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.929s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/finger_state.hpp
+[25.930s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action
+[25.931s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail
+[25.931s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__traits.hpp
+[25.931s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__type_support.hpp
+[25.931s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__struct.hpp
+[25.932s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__builder.hpp
+[25.932s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/gesture.hpp
+[25.933s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv
+[25.933s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail
+[25.933s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__traits.hpp
+[25.934s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__type_support.hpp
+[25.934s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__struct.hpp
+[25.934s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__builder.hpp
+[25.935s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/set_finger.hpp
+[25.936s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces
+[25.936s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg
+[25.937s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.937s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail
+[25.938s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__rosidl_typesupport_fastrtps_cpp.hpp
+[25.938s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[25.938s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action
+[25.938s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail
+[25.939s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__rosidl_typesupport_fastrtps_cpp.hpp
+[25.939s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[25.939s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv
+[25.940s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail
+[25.940s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__rosidl_typesupport_fastrtps_cpp.hpp
+[25.940s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[25.940s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.dylib
+[25.973s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces
+[25.973s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg
+[25.973s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail
+[25.974s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__rosidl_typesupport_introspection_cpp.hpp
+[25.974s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/msg/detail/finger_state__type_support.cpp
+[25.974s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action
+[25.974s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail
+[25.975s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__rosidl_typesupport_introspection_cpp.hpp
+[25.975s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/action/detail/gesture__type_support.cpp
+[25.976s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv
+[25.976s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail
+[25.976s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__rosidl_typesupport_introspection_cpp.hpp
+[25.976s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/include/interfaces/interfaces/srv/detail/set_finger__type_support.cpp
+[25.977s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.dylib
+[26.009s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.dylib
+[26.043s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/environment/pythonpath.sh
+[26.043s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[26.044s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces-0.0.0-py3.11.egg-info
+[26.044s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces-0.0.0-py3.11.egg-info/PKG-INFO
+[26.044s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces-0.0.0-py3.11.egg-info/SOURCES.txt
+[26.045s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces-0.0.0-py3.11.egg-info/top_level.txt
+[26.046s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces-0.0.0-py3.11.egg-info/dependency_links.txt
+[26.046s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces
+[26.047s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-311-darwin.so
+[26.047s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[26.048s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[26.049s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/libinterfaces__rosidl_generator_py.dylib
+[26.049s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/msg
+[26.050s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/msg/_finger_state.py
+[26.050s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/msg/__init__.py
+[26.051s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/msg/_finger_state_s.c
+[26.051s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-darwin.so
+[26.052s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.053s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/__init__.py
+[26.054s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/action
+[26.054s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/action/_gesture.py
+[26.054s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/action/__init__.py
+[26.055s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/action/_gesture_s.c
+[26.056s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/srv
+[26.056s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/srv/__init__.py
+[26.056s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/srv/_set_finger_s.c
+[26.057s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/srv/_set_finger.py
+[26.058s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-311-darwin.so
+[26.142s] Listing 'lib/python3.11/site-packages/interfaces'...
+[26.142s] Can't list 'lib/python3.11/site-packages/interfaces'
+[26.150s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-darwin.so
+[26.183s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-311-darwin.so
+[26.216s] -- Up-to-date: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-311-darwin.so
+[26.247s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/lib/libinterfaces__rosidl_generator_py.dylib
+[26.281s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/msg/FingerState.idl
+[26.282s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/srv/SetFinger.idl
+[26.282s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/action/Gesture.idl
+[26.283s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/msg/FingerState.msg
+[26.283s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/srv/SetFinger.srv
+[26.284s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/srv/SetFinger_Request.msg
+[26.285s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/srv/SetFinger_Response.msg
+[26.286s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/action/Gesture.action
+[26.287s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[26.287s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[26.288s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[26.289s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[26.290s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/environment/path.sh
+[26.291s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/environment/path.dsv
+[26.292s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/local_setup.bash
+[26.293s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/local_setup.sh
+[26.294s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/local_setup.zsh
+[26.294s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/local_setup.dsv
+[26.295s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/package.dsv
+[26.296s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[26.296s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[26.297s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[26.297s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[26.298s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.298s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[26.299s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.299s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[26.300s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[26.300s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[26.301s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.301s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.302s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[26.302s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.303s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[26.303s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[26.304s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[26.305s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[26.305s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[26.306s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.306s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.307s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[26.308s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[26.308s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.309s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.309s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[26.310s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[26.310s] -- Installing: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/share/interfaces/package.xml
+[26.315s] Invoked command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller:/Users/StevenOmole/miniconda3/envs/ros_env CONDA_PROMPT_MODIFIER=(ros_env) SHLVL=2 _=/usr/bin/env /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake --install /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces

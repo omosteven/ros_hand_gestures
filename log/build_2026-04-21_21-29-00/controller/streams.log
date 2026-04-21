@@ -1,0 +1,43 @@
+[1.877s] Invoking command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/controller': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/prefix_override:/Users/StevenOmole/Library/Python/3.9/lib/python/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /Applications/Xcode.app/Contents/Developer/usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build install --record /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/install.log --single-version-externally-managed install_data
+[2.319s] /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'
+[2.319s]   warnings.warn(msg)
+[2.597s] running egg_info
+[2.640s] creating ../../build/controller/controller.egg-info
+[2.640s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[2.641s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[2.641s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[2.642s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[2.643s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[2.643s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.736s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.738s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[2.738s] running build
+[2.739s] running build_py
+[2.739s] creating /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[2.740s] copying controller/__init__.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[2.740s] copying controller/joint_bridge_node.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[2.741s] copying controller/keyboard_control.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[2.742s] copying controller/action_server.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[2.743s] copying controller/controller_node.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller
+[2.745s] running install
+[2.755s] running install_lib
+[2.799s] creating /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[2.799s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/__init__.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[2.799s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/joint_bridge_node.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[2.800s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/keyboard_control.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[2.801s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/action_server.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[2.803s] copying /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build/lib/controller/controller_node.py -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller
+[2.805s] byte-compiling /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/keyboard_control.py to keyboard_control.cpython-39.pyc
+[2.807s] running install_data
+[2.807s] creating /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/share/ament_index/resource_index/packages
+[2.808s] copying resource/controller -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/share/ament_index/resource_index/packages
+[2.809s] copying package.xml -> /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/share/controller
+[2.810s] running install_egg_info
+[2.856s] Copying ../../build/controller/controller.egg-info to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller-0.0.0-py3.9.egg-info
+[2.861s] running install_scripts
+[2.956s] Installing action_server script to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller
+[2.956s] Installing controller script to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller
+[2.957s] Installing joint_bridge script to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller
+[2.957s] Installing keyboard_control script to /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller
+[2.958s] writing list of installed files to '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/install.log'
+[2.992s] Invoked command in '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/controller' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/prefix_override:/Users/StevenOmole/Library/Python/3.9/lib/python/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /Applications/Xcode.app/Contents/Developer/usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controller build --build-base /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/build install --record /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/controller/install.log --single-version-externally-managed install_data

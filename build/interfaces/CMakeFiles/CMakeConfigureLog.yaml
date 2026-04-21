@@ -32,8 +32,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -71,8 +72,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/uname"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/uname"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/uname"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/uname"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/uname"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/uname"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/uname"
       - "/Users/StevenOmole/miniconda3/condabin/uname"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./uname"
       - "/Users/StevenOmole/.local/bin/uname"
@@ -94,8 +96,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -162,8 +165,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -201,8 +205,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/gmake"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/gmake"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/gmake"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/gmake"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/gmake"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/gmake"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/gmake"
       - "/Users/StevenOmole/miniconda3/condabin/gmake"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./gmake"
       - "/Users/StevenOmole/.local/bin/gmake"
@@ -222,8 +227,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -268,13 +274,7 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "cc"
-      - "gcc"
-      - "cl"
-      - "bcc"
-      - "xlc"
-      - "icx"
-      - "clang"
+      - "/usr/bin/clang"
     candidate_directories:
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/bin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/sbin/"
@@ -288,8 +288,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -314,35 +315,7 @@ events:
       - "/Library/Apple/usr/bin/"
       - "/Users/StevenOmole/.cargo/bin/"
       - "/Users/StevenOmole/Documents/development/flutter/bin/"
-    searched_directories:
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/bin/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/sbin/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/bin/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/sbin/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/bin/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/sbin/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/cc"
-      - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/cc"
-      - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/cc"
-      - "/Users/StevenOmole/miniconda3/envs/ros_env/cc"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/cc"
-      - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/cc"
-      - "/Users/StevenOmole/miniconda3/condabin/cc"
-      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./cc"
-      - "/Users/StevenOmole/.local/bin/cc"
-      - "/usr/local/opt/openjdk/bin/cc"
-      - "/usr/local/opt/postgresql@16/bin/cc"
-      - "/usr/local/opt/postgresql@14/bin/cc"
-      - "/Users/StevenOmole/.nvm/versions/node/v22.14.0/bin/cc"
-      - "/Users/StevenOmole/.asdf/shims/cc"
-      - "/usr/local/opt/asdf/libexec/bin/cc"
-      - "/usr/local/lib/ruby/gems/3.4.0/bin/cc"
-      - "/usr/local/opt/ruby/bin/cc"
-      - "/usr/local/bin/cc"
-      - "/System/Cryptexes/App/usr/bin/cc"
-    found: "/usr/bin/cc"
+    found: "/usr/bin/clang"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces"
@@ -350,8 +323,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -410,8 +384,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -447,8 +422,8 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/cc 
-      Build flags: 
+      Compiler: /usr/bin/clang 
+      Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fstack-protector-strong;-O2;-pipe;-isystem;/Users/StevenOmole/miniconda3/envs/ros2_setup/include
       Id flags:  
       
       The output was:
@@ -467,11 +442,11 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+      Detecting C compiler apple sysroot: "/usr/bin/clang" "-march=core2" "-mtune=haswell" "-mssse3" "-ftree-vectorize" "-fPIC" "-fstack-protector-strong" "-O2" "-pipe" "-isystem" "/Users/StevenOmole/miniconda3/envs/ros2_setup/include" "-E" "apple-sdk.c"
         # 1 "apple-sdk.c"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
-        # 432 "<built-in>" 3
+        # 431 "<built-in>" 3
         # 1 "<command line>" 1
         # 1 "<built-in>" 2
         # 1 "apple-sdk.c" 2
@@ -522,8 +497,9 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -555,8 +531,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -604,8 +581,9 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -637,8 +615,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -686,8 +665,9 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -719,8 +699,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -768,8 +749,9 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -801,8 +783,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -850,8 +833,9 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -883,8 +867,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -932,8 +917,9 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -965,8 +951,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1014,8 +1001,9 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -1041,8 +1029,9 @@ events:
       - "/Users/StevenOmole/Documents/development/flutter/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/objcopy"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/objcopy"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/objcopy"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/objcopy"
       - "/Users/StevenOmole/miniconda3/condabin/objcopy"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./objcopy"
       - "/Users/StevenOmole/.local/bin/objcopy"
@@ -1074,8 +1063,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1123,8 +1113,9 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -1150,8 +1141,9 @@ events:
       - "/Users/StevenOmole/Documents/development/flutter/bin/"
     searched_directories:
       - "/usr/bin/readelf"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/readelf"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/readelf"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/readelf"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/readelf"
       - "/Users/StevenOmole/miniconda3/condabin/readelf"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./readelf"
       - "/Users/StevenOmole/.local/bin/readelf"
@@ -1183,8 +1175,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1232,8 +1225,9 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -1259,8 +1253,9 @@ events:
       - "/Users/StevenOmole/Documents/development/flutter/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/dlltool"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/dlltool"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/dlltool"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/dlltool"
       - "/Users/StevenOmole/miniconda3/condabin/dlltool"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./dlltool"
       - "/Users/StevenOmole/.local/bin/dlltool"
@@ -1292,8 +1287,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1341,8 +1337,9 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -1368,8 +1365,9 @@ events:
       - "/Users/StevenOmole/Documents/development/flutter/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/addr2line"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/addr2line"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/addr2line"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/addr2line"
       - "/Users/StevenOmole/miniconda3/condabin/addr2line"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./addr2line"
       - "/Users/StevenOmole/.local/bin/addr2line"
@@ -1401,8 +1399,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1450,8 +1449,9 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -1477,8 +1477,9 @@ events:
       - "/Users/StevenOmole/Documents/development/flutter/bin/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/tapi"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/tapi"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/tapi"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/tapi"
       - "/Users/StevenOmole/miniconda3/condabin/tapi"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./tapi"
       - "/Users/StevenOmole/.local/bin/tapi"
@@ -1510,8 +1511,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1556,16 +1558,10 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "c++"
-      - "g++"
-      - "cl"
-      - "bcc"
-      - "icpx"
-      - "icx"
-      - "clang++"
+      - "/usr/bin/clang++"
     candidate_directories:
       - "/usr/bin/"
-    found: "/usr/bin/c++"
+    found: "/usr/bin/clang++"
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces"
@@ -1573,8 +1569,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1633,8 +1630,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1670,8 +1668,8 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
-      Build flags: 
+      Compiler: /usr/bin/clang++ 
+      Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/StevenOmole/miniconda3/envs/ros2_setup/include
       Id flags:  
       
       The output was:
@@ -1690,11 +1688,11 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+      Detecting CXX compiler apple sysroot: "/usr/bin/clang++" "-march=core2" "-mtune=haswell" "-mssse3" "-ftree-vectorize" "-fPIC" "-fstack-protector-strong" "-O2" "-pipe" "-stdlib=libc++" "-fvisibility-inlines-hidden" "-fmessage-length=0" "-isystem" "/Users/StevenOmole/miniconda3/envs/ros2_setup/include" "-E" "apple-sdk.cpp"
         # 1 "apple-sdk.cpp"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
-        # 480 "<built-in>" 3
+        # 479 "<built-in>" 3
         # 1 "<command line>" 1
         # 1 "<built-in>" 2
         # 1 "apple-sdk.cpp" 2
@@ -1756,8 +1754,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -1795,8 +1794,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/install_name_tool"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/install_name_tool"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/install_name_tool"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/install_name_tool"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/install_name_tool"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/install_name_tool"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/install_name_tool"
       - "/Users/StevenOmole/miniconda3/condabin/install_name_tool"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./install_name_tool"
       - "/Users/StevenOmole/.local/bin/install_name_tool"
@@ -1818,8 +1818,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -1855,65 +1856,65 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5"
-      binary: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5"
+      source: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip"
+      binary: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip"
     cmakeVariables:
-      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5'
+        Change Dir: '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip'
         
-        Run Build Command(s): /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_c1e85/fast
-        /usr/local/bin/gmake  -f CMakeFiles/cmTC_c1e85.dir/build.make CMakeFiles/cmTC_c1e85.dir/build
-        gmake[1]: Entering directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5'
-        Building C object CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_81494/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_81494.dir/build.make CMakeFiles/cmTC_81494.dir/build
+        gmake[1]: Entering directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip'
+        Building C object CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: x86_64-apple-darwin24.4.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.4 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -x c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.4 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -fdebug-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O2 -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 2 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -x c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.4.0
+        ignoring nonexistent directory "/Users/StevenOmole/miniconda3/envs/ros2_setup/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
-         /usr/local/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_c1e85
-        /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1e85.dir/link.txt --verbose=1
+        Linking C executable cmTC_81494
+        /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81494.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: x86_64-apple-darwin24.4.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c1e85 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -O2 -mllvm -enable-linkonceodr-outlining -o cmTC_81494 -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/StevenOmole/miniconda3/envs/ros2_setup/lib -v CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:44:07 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
         will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
         LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
         TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+        ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
         Library search paths:
-        	/usr/local/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -o cmTC_c1e85
-        gmake[1]: Leaving directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5'
+        /usr/bin/clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -v -Wl,-v CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -o cmTC_81494
+        gmake[1]: Leaving directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip'
         
       exitCode: 0
   -
@@ -1935,16 +1936,14 @@ events:
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/usr/local/include]
           add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
           add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
           add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         end of search list found
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
         collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
         collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
         collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        implicit include dirs: [/usr/local/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
       
       
   -
@@ -1957,38 +1956,38 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5']
+        ignore line: [Change Dir: '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_c1e85/fast]
-        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_c1e85.dir/build.make CMakeFiles/cmTC_c1e85.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5']
-        ignore line: [Building C object CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_81494/fast]
+        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_81494.dir/build.make CMakeFiles/cmTC_81494.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip']
+        ignore line: [Building C object CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: x86_64-apple-darwin24.4.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.4 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-Ya50m5 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -x c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.4 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -fdebug-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-gmJxip -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O2 -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 2 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -x c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.4.0]
+        ignore line: [ignoring nonexistent directory "/Users/StevenOmole/miniconda3/envs/ros2_setup/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/local/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_c1e85]
-        ignore line: [/Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1e85.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_81494]
+        ignore line: [/Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81494.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: x86_64-apple-darwin24.4.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c1e85 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -O2 -mllvm -enable-linkonceodr-outlining -o cmTC_81494 -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/StevenOmole/miniconda3/envs/ros2_setup/lib -v CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -2002,30 +2001,34 @@ events:
           arg [15.4] ==> ignore
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-O2] ==> ignore
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c1e85] ==> ignore
-          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [cmTC_81494] ==> ignore
+          arg [-L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib] ==> dir [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_c1e85.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_81494.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
-        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         remove lib [System]
         remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
-        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib] ==> [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         implicit libs: []
         implicit objs: []
-        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit dirs: [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
       
       
@@ -2053,68 +2056,68 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM"
-      binary: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM"
+      source: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2"
+      binary: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM'
+        Change Dir: '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2'
         
-        Run Build Command(s): /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_7e5ab/fast
-        /usr/local/bin/gmake  -f CMakeFiles/cmTC_7e5ab.dir/build.make CMakeFiles/cmTC_7e5ab.dir/build
-        gmake[1]: Entering directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM'
-        Building CXX object CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_a1a34/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_a1a34.dir/build.make CMakeFiles/cmTC_a1a34.dir/build
+        gmake[1]: Entering directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2'
+        Building CXX object CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: x86_64-apple-darwin24.4.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.4 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.4 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -fdebug-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O2 -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.4.0
+        ignoring nonexistent directory "/Users/StevenOmole/miniconda3/envs/ros2_setup/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
-         /usr/local/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_7e5ab
-        /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e5ab.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_a1a34
+        /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a34.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: x86_64-apple-darwin24.4.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7e5ab -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -O2 -mllvm -enable-linkonceodr-outlining -o cmTC_a1a34 -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/StevenOmole/miniconda3/envs/ros2_setup/lib -v CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:44:07 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
         will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
         LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
         TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+        ld: warning: search path '/Users/StevenOmole/miniconda3/envs/ros2_setup/lib' not found
         Library search paths:
-        	/usr/local/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7e5ab
-        gmake[1]: Leaving directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM'
+        /usr/bin/clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -v -Wl,-v CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a1a34
+        gmake[1]: Leaving directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2'
         
       exitCode: 0
   -
@@ -2136,18 +2139,16 @@ events:
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/usr/local/include]
           add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
           add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
           add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
           add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         end of search list found
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
         collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
         collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
         collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
         collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
-        implicit include dirs: [/usr/local/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
       
       
   -
@@ -2160,40 +2161,40 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM']
+        ignore line: [Change Dir: '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_7e5ab/fast]
-        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_7e5ab.dir/build.make CMakeFiles/cmTC_7e5ab.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM']
-        ignore line: [Building CXX object CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_a1a34/fast]
+        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_a1a34.dir/build.make CMakeFiles/cmTC_a1a34.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fstack-protector-strong -O2 -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -c /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: x86_64-apple-darwin24.4.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.4 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-zVbZcM -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.4 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -debugger-tuning=lldb -fdebug-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2 -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles/CMakeScratch/TryCompile-fV0Ls2 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/StevenOmole/miniconda3/envs/ros2_setup/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O2 -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.4.0]
+        ignore line: [ignoring nonexistent directory "/Users/StevenOmole/miniconda3/envs/ros2_setup/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/local/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_7e5ab]
-        ignore line: [/Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e5ab.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_a1a34]
+        ignore line: [/Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a34.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: x86_64-apple-darwin24.4.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7e5ab -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -O2 -mllvm -enable-linkonceodr-outlining -o cmTC_a1a34 -L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib -search_paths_first -headerpad_max_install_names -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/StevenOmole/miniconda3/envs/ros2_setup/lib -v CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -2207,31 +2208,35 @@ events:
           arg [15.4] ==> ignore
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-O2] ==> ignore
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_7e5ab] ==> ignore
-          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [cmTC_a1a34] ==> ignore
+          arg [-L/Users/StevenOmole/miniconda3/envs/ros2_setup/lib] ==> dir [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_7e5ab.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_a1a34.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
-        Library search paths: [;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         remove lib [System]
         remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
-        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib] ==> [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
         collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         implicit libs: [c++]
         implicit objs: []
-        implicit dirs: [/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit dirs: [/Users/StevenOmole/miniconda3/envs/ros2_setup/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
         implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
       
       
@@ -2330,8 +2335,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -2417,8 +2423,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -2491,8 +2498,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -2617,8 +2625,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -2748,8 +2757,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -2879,8 +2889,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -3010,8 +3021,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -3141,8 +3153,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -3272,8 +3285,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -3403,8 +3417,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -3534,8 +3549,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -3665,8 +3681,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -3796,8 +3813,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -3929,8 +3947,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -4060,8 +4079,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -4191,8 +4211,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -4322,8 +4343,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -4899,8 +4921,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -5044,8 +5067,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -5179,8 +5203,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -5314,8 +5339,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -5479,8 +5505,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -5614,8 +5641,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -5747,8 +5775,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -5835,8 +5864,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -5974,8 +6004,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -6062,8 +6093,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -6215,8 +6247,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -6301,8 +6334,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -6468,8 +6502,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -6554,8 +6589,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -6721,8 +6757,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -6807,8 +6844,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -6942,8 +6980,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -7026,8 +7065,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -7191,8 +7231,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -7334,8 +7375,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -7422,8 +7464,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -7703,8 +7746,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -7789,8 +7833,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -7932,8 +7977,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8069,8 +8115,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8155,8 +8202,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8298,8 +8346,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8382,8 +8431,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8523,8 +8573,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8664,8 +8715,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8795,8 +8847,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8880,8 +8933,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -8965,8 +9019,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9050,8 +9105,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9194,8 +9250,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9279,8 +9336,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9364,8 +9422,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9506,8 +9565,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9591,8 +9651,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9676,8 +9737,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9761,8 +9823,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9846,8 +9909,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -9931,8 +9995,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10073,8 +10138,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10156,8 +10222,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10239,8 +10306,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10322,8 +10390,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10405,8 +10474,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10488,8 +10558,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10628,8 +10699,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10772,8 +10844,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -10916,8 +10989,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -11060,8 +11134,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -11202,8 +11277,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -11344,8 +11420,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -11401,6 +11478,233 @@ events:
   -
     kind: "find-v1"
     backtrace:
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/share/cmake-4.2/Modules/FindPythonInterp.cmake:144 (find_program)"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package)"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:33 (find_package)"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)"
+      - "CMakeLists.txt:12 (rosidl_generate_interfaces)"
+    mode: "program"
+    variable: "PYTHON_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.6"
+      - "python3"
+    candidate_directories:
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/bin/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/sbin/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/bin/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/sbin/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/bin/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/sbin/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
+      - "/Users/StevenOmole/miniconda3/condabin/"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
+      - "/Users/StevenOmole/.local/bin/"
+      - "/usr/local/opt/openjdk/bin/"
+      - "/usr/local/opt/postgresql@16/bin/"
+      - "/usr/local/opt/postgresql@14/bin/"
+      - "/Users/StevenOmole/.nvm/versions/node/v22.14.0/bin/"
+      - "/Users/StevenOmole/.asdf/shims/"
+      - "/usr/local/opt/asdf/libexec/bin/"
+      - "/usr/local/lib/ruby/gems/3.4.0/bin/"
+      - "/usr/local/opt/ruby/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/X11/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Users/StevenOmole/.cargo/bin/"
+      - "/Users/StevenOmole/Documents/development/flutter/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Users/StevenOmole/Applications/"
+      - "/Applications/"
+      - "/Applications/Xcode.app/Contents/Applications/"
+      - "/Applications/Xcode.app/Contents/Developer/Applications/"
+    searched_directories:
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/bin/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/sbin/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/bin/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/sbin/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/bin/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/sbin/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/python3.6"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/python3.6"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/python3.6"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/python3.6"
+      - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/python3.6"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/python3.6"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/python3.6"
+      - "/Users/StevenOmole/miniconda3/condabin/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./python3.6"
+      - "/Users/StevenOmole/.local/bin/python3.6"
+      - "/usr/local/opt/openjdk/bin/python3.6"
+      - "/usr/local/opt/postgresql@16/bin/python3.6"
+      - "/usr/local/opt/postgresql@14/bin/python3.6"
+      - "/Users/StevenOmole/.nvm/versions/node/v22.14.0/bin/python3.6"
+      - "/Users/StevenOmole/.asdf/shims/python3.6"
+      - "/usr/local/opt/asdf/libexec/bin/python3.6"
+      - "/usr/local/lib/ruby/gems/3.4.0/bin/python3.6"
+      - "/usr/local/opt/ruby/bin/python3.6"
+      - "/usr/local/bin/python3.6"
+      - "/System/Cryptexes/App/usr/bin/python3.6"
+      - "/usr/bin/python3.6"
+      - "/bin/python3.6"
+      - "/usr/sbin/python3.6"
+      - "/sbin/python3.6"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/python3.6"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/python3.6"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/python3.6"
+      - "/opt/X11/bin/python3.6"
+      - "/Library/Apple/usr/bin/python3.6"
+      - "/Users/StevenOmole/.cargo/bin/python3.6"
+      - "/Users/StevenOmole/Documents/development/flutter/bin/python3.6"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/python3.6"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/python3.6"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/python3.6"
+      - "/usr/local/bin/python3.6"
+      - "/usr/local/sbin/python3.6"
+      - "/usr/local/python3.6"
+      - "/usr/bin/python3.6"
+      - "/usr/sbin/python3.6"
+      - "/usr/python3.6"
+      - "/bin/python3.6"
+      - "/sbin/python3.6"
+      - "/usr/X11R6/bin/python3.6"
+      - "/usr/X11R6/sbin/python3.6"
+      - "/usr/X11R6/python3.6"
+      - "/usr/pkg/bin/python3.6"
+      - "/usr/pkg/sbin/python3.6"
+      - "/usr/pkg/python3.6"
+      - "/opt/bin/python3.6"
+      - "/opt/sbin/python3.6"
+      - "/opt/python3.6"
+      - "/sw/bin/python3.6"
+      - "/sw/sbin/python3.6"
+      - "/sw/python3.6"
+      - "/opt/local/bin/python3.6"
+      - "/opt/local/sbin/python3.6"
+      - "/opt/local/python3.6"
+      - "/Users/StevenOmole/Applications/python3.6"
+      - "/Applications/python3.6"
+      - "/Applications/Xcode.app/Contents/Applications/python3.6"
+      - "/Applications/Xcode.app/Contents/Developer/Applications/python3.6"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/bin/python3"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/sbin/python3"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces/python3"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/bin/python3"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/sbin/python3"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/python3"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/bin/python3"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/sbin/python3"
+      - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/python3"
+    found: "/Users/StevenOmole/miniconda3/envs/ros_env/bin/python3"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces"
+        - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description"
+        - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
+        - "/Users/StevenOmole/miniconda3/envs/ros_env"
+      ENV{PATH}:
+        - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
+        - "/Users/StevenOmole/miniconda3/condabin"
+        - ".\n.\n."
+        - "/Users/StevenOmole/.local/bin"
+        - "/usr/local/opt/openjdk/bin"
+        - "/usr/local/opt/postgresql@16/bin"
+        - "/usr/local/opt/postgresql@14/bin"
+        - "/usr/local/opt/postgresql@14/bin"
+        - "/Users/StevenOmole/.nvm/versions/node/v22.14.0/bin"
+        - "/Users/StevenOmole/.asdf/shims"
+        - "/usr/local/opt/asdf/libexec/bin"
+        - "/usr/local/lib/ruby/gems/3.4.0/bin"
+        - "/usr/local/opt/ruby/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/X11/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Users/StevenOmole/.cargo/bin"
+        - "/Users/StevenOmole/Documents/development/flutter/bin"
+      CMAKE_INSTALL_PREFIX: "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/usr/local"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Users/StevenOmole/miniconda3/envs/ros_env"
+        - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/interfaces"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/StevenOmole/Applications"
+        - "/Applications"
+        - "/Applications/Xcode.app/Contents/Applications"
+        - "/Applications/Xcode.app/Contents/Developer/Applications"
+  -
+    kind: "find-v1"
+    backtrace:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:56 (find_program)"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:33 (find_package)"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)"
@@ -11432,8 +11736,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -11506,8 +11811,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -11690,8 +11996,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -11795,8 +12102,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -11897,8 +12205,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -11983,8 +12292,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -12122,8 +12432,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -12265,8 +12576,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -12408,8 +12720,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -12551,8 +12864,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -12694,8 +13008,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -12837,8 +13152,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -12980,8 +13296,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -13121,8 +13438,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -13211,8 +13529,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -13285,8 +13604,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -13367,8 +13687,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -13441,8 +13762,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
@@ -13523,8 +13845,9 @@ events:
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/sbin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/"
-      - "/Users/StevenOmole/Library/Python/3.9/bin/"
       - "/Users/StevenOmole/miniconda3/envs/ros_env/bin/"
+      - "/Users/StevenOmole/Library/Python/3.9/bin/"
+      - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin/"
       - "/Users/StevenOmole/miniconda3/condabin/"
       - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/.\n.\n./"
       - "/Users/StevenOmole/.local/bin/"
@@ -13597,8 +13920,9 @@ events:
         - "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller"
         - "/Users/StevenOmole/miniconda3/envs/ros_env"
       ENV{PATH}:
-        - "/Users/StevenOmole/Library/Python/3.9/bin"
         - "/Users/StevenOmole/miniconda3/envs/ros_env/bin"
+        - "/Users/StevenOmole/Library/Python/3.9/bin"
+        - "/Users/StevenOmole/miniconda3/envs/ros2_setup/bin"
         - "/Users/StevenOmole/miniconda3/condabin"
         - ".\n.\n."
         - "/Users/StevenOmole/.local/bin"
