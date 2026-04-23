@@ -32,9 +32,9 @@ CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/size_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/action/detail/gesture__struct.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
@@ -61,25 +61,25 @@ CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/action/detail/gesture__type_support.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_c/rosidl_typesupport_c/message_type_support_dispatch.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_c/rosidl_typesupport_c/service_type_support_dispatch.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/msg/goal_status_array.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_c/rosidl_typesupport_c/message_type_support_dispatch.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_c/rosidl_typesupport_c/service_type_support_dispatch.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
@@ -133,11 +133,11 @@ CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/srv/cancel_goal.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/action/gesture.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/action/detail/gesture__functions.h

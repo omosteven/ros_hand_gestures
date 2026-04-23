@@ -1,8 +1,10 @@
+/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/trajectory_bridge.py
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/__init__.py
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/joint_bridge_node.py
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/keyboard_control.py
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/action_server.py
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/controller_node.py
+/Users/StevenOmole/Library/Caches/com.apple.python/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/trajectory_bridge.cpython-39.pyc
 /Users/StevenOmole/Library/Caches/com.apple.python/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/__init__.cpython-39.pyc
 /Users/StevenOmole/Library/Caches/com.apple.python/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/joint_bridge_node.cpython-39.pyc
 /Users/StevenOmole/Library/Caches/com.apple.python/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/python3.9/site-packages/controller/keyboard_control.cpython-39.pyc
@@ -21,3 +23,4 @@
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller/controller
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller/joint_bridge
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller/keyboard_control
+/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/controller/lib/controller/trajectory_bridge

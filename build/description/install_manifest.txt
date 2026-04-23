@@ -1,6 +1,8 @@
-/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/launch/display.launch.py
+/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/launch/gazebo.launch.py
+/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/launch/rviz.launch.py
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/urdf/hand.urdf
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/rviz/hand.rviz
+/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/config/controllers.yaml
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/ament_index/resource_index/package_run_dependencies/description
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/ament_index/resource_index/parent_prefix_path/description
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/install/description/share/description/environment/ament_prefix_path.sh

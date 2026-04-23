@@ -59,7 +59,7 @@ endif()
 add_library(interfaces::interfaces__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(interfaces::interfaces__rosidl_generator_py PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11;/Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11;/Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include"
   INTERFACE_LINK_LIBRARIES "interfaces::interfaces__rosidl_typesupport_c;action_msgs::action_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py;unique_identifier_msgs::unique_identifier_msgs__rosidl_generator_py"
 )
 

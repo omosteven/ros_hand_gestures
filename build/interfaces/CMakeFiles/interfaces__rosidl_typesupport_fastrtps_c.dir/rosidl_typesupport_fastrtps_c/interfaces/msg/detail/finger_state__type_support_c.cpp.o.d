@@ -19,9 +19,9 @@ CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_nullptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_offsetof.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_fastrtps_c/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
@@ -646,22 +646,22 @@ CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/identifier.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/u16string.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/identifier.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/u16string.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/Cdr.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/fastcdr_dll.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/config.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/eProsima_auto_link.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/FastBuffer.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/exceptions/NotEnoughMemoryException.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/exceptions/Exception.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/exceptions/../fastcdr_dll.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/Cdr.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/fastcdr_dll.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/config.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/eProsima_auto_link.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/FastBuffer.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/exceptions/NotEnoughMemoryException.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/exceptions/Exception.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/exceptions/../fastcdr_dll.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \

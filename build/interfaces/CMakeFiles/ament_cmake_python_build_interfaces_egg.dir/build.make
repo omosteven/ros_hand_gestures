@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake
+CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake
 
 # The command to remove a file.
-RM = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E rm -f
+RM = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/compiler_depend.m
 include CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_interfaces_egg:
-	cd /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/ament_cmake_python/interfaces && /Users/StevenOmole/miniconda3/envs/ros_env/bin/python3 setup.py egg_info
+	cd /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/ament_cmake_python/interfaces && /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/python3 setup.py egg_info
 
 CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/codegen:
 .PHONY : CMakeFiles/ament_cmake_python_build_interfaces_egg.dir/codegen

@@ -50,7 +50,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_generator_c.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_generator_c.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_generator_c.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_generator_c.dylib")
@@ -71,7 +71,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_fastrtps_c.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces"
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_fastrtps_c.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_fastrtps_c.dylib")
@@ -92,7 +92,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_introspection_c.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces"
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_introspection_c.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_introspection_c.dylib")
@@ -109,7 +109,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_c.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces"
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_c.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_c.dylib")
@@ -133,7 +133,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.dylib")
@@ -153,7 +153,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_introspection_cpp.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_introspection_cpp.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_introspection_cpp.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_introspection_cpp.dylib")
@@ -169,7 +169,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_cpp.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_cpp.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_cpp.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_typesupport_cpp.dylib")
@@ -199,7 +199,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
-        "/Users/StevenOmole/miniconda3/envs/ros_env/bin/python3" "-m" "compileall"
+        "/Users/StevenOmole/miniconda3/envs/ros_fresh/bin/python3" "-m" "compileall"
         "lib/python3.11/site-packages/interfaces"
       )
 endif()
@@ -211,7 +211,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces"
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces"
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-darwin.so")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-darwin.so")
@@ -233,7 +233,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces"
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces"
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-311-darwin.so")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-311-darwin.so")
@@ -255,7 +255,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces"
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces"
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-311-darwin.so")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.11/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-311-darwin.so")
@@ -276,7 +276,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_generator_py.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces"
-      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_env/lib"
+      -delete_rpath "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_generator_py.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libinterfaces__rosidl_generator_py.dylib")
@@ -328,7 +328,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/environment" TYPE FILE FILES "/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/environment" TYPE FILE FILES "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -336,7 +336,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/environment" TYPE FILE FILES "/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interfaces/environment" TYPE FILE FILES "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -13,6 +13,7 @@ controller/action_server.py
 controller/controller_node.py
 controller/joint_bridge_node.py
 controller/keyboard_control.py
+controller/trajectory_bridge.py
 resource/controller
 test/test_copyright.py
 test/test_flake8.py

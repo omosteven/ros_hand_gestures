@@ -76,7 +76,7 @@ CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/msg/detail/finger_state__struct.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
@@ -101,9 +101,9 @@ CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rcutils/rcutils/allocator.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rcutils/rcutils/macros.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rcutils/rcutils/allocator.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rcutils/rcutils/macros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rcutils/rcutils/types/rcutils_ret.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rcutils/rcutils/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rcutils/rcutils/visibility_control_macros.h
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rcutils/rcutils/types/rcutils_ret.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rcutils/rcutils/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rcutils/rcutils/visibility_control_macros.h

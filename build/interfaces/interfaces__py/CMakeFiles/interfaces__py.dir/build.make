@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake
+CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake
 
 # The command to remove a file.
-RM = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E rm -f
+RM = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,31 +79,31 @@ include /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfa
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_set_finger_s.c
 /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_gesture_s.c
 
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/lib/rosidl_generator_py/rosidl_generator_py
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/rosidl_generator_py/__init__.py
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/rosidl_generator_py/generate_py_impl.py
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_action.py.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_idl_support.c.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_idl.py.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_msg_support.c.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_msg.py.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/rosidl_generator_py/rosidl_generator_py
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/rosidl_generator_py/__init__.py
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/rosidl_generator_py/generate_py_impl.py
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_action.py.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_idl_support.c.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_idl.py.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_msg_support.c.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_msg.py.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/FingerState.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/SetFinger.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/action/Gesture.idl
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/builtin_interfaces/msg/Time.idl
-rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_env/share/unique_identifier_msgs/msg/UUID.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/interfaces__py && /Users/StevenOmole/miniconda3/envs/ros_env/bin/python3 /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	cd /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/interfaces__py && /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/python3 /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c

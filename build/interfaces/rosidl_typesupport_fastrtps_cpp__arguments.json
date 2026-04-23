@@ -1,39 +1,39 @@
 {
   "package_name": "interfaces",
   "output_dir": "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces",
-  "template_dir": "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "template_dir": "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces:msg/FingerState.idl",
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces:srv/SetFinger.idl",
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces:action/Gesture.idl"
   ],
   "ros_interface_dependencies": [
-    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalInfo.idl",
-    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatus.idl",
-    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatusArray.idl",
-    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/srv/CancelGoal.idl",
-    "builtin_interfaces:/Users/StevenOmole/miniconda3/envs/ros_env/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/Users/StevenOmole/miniconda3/envs/ros_env/share/builtin_interfaces/msg/Time.idl",
-    "unique_identifier_msgs:/Users/StevenOmole/miniconda3/envs/ros_env/share/unique_identifier_msgs/msg/UUID.idl"
+    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/Users/StevenOmole/miniconda3/envs/ros_fresh/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/Users/StevenOmole/miniconda3/envs/ros_fresh/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/Users/StevenOmole/miniconda3/envs/ros_fresh/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
-    "/Users/StevenOmole/miniconda3/envs/ros_env/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces/msg/FingerState.idl",
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces/srv/SetFinger.idl",
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_adapter/interfaces/action/Gesture.idl",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalInfo.idl",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatus.idl",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatusArray.idl",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/srv/CancelGoal.idl",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/builtin_interfaces/msg/Duration.idl",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/builtin_interfaces/msg/Time.idl",
-    "/Users/StevenOmole/miniconda3/envs/ros_env/share/unique_identifier_msgs/msg/UUID.idl"
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalInfo.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatus.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatusArray.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/srv/CancelGoal.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/builtin_interfaces/msg/Duration.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/builtin_interfaces/msg/Time.idl",
+    "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/unique_identifier_msgs/msg/UUID.idl"
   ]
 }

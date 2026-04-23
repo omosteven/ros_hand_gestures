@@ -1,9 +1,9 @@
 CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/finger_state__type_support.cpp.o: \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/finger_state__type_support.cpp \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/finger_state__rosidl_typesupport_fastrtps_cpp.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/finger_state__struct.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
@@ -754,17 +754,17 @@ CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fa
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/Cdr.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/fastcdr_dll.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/config.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/eProsima_auto_link.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/FastBuffer.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/exceptions/NotEnoughMemoryException.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/exceptions/Exception.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/fastcdr/exceptions/../fastcdr_dll.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/Cdr.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/fastcdr_dll.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/config.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/eProsima_auto_link.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/FastBuffer.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/exceptions/NotEnoughMemoryException.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/exceptions/Exception.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/fastcdr/exceptions/../fastcdr_dll.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \
@@ -803,9 +803,9 @@ CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fa
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/identifier.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/identifier.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp

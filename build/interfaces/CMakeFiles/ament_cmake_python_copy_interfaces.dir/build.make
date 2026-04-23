@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake
+CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake
 
 # The command to remove a file.
-RM = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E rm -f
+RM = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_interfaces.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_interfaces:
-	/Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E copy_directory /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/ament_cmake_python/interfaces/interfaces
+	/Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -E copy_directory /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/ament_cmake_python/interfaces/interfaces
 
 CMakeFiles/ament_cmake_python_copy_interfaces.dir/codegen:
 .PHONY : CMakeFiles/ament_cmake_python_copy_interfaces.dir/codegen

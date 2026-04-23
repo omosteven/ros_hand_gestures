@@ -7,8 +7,11 @@
   <maintainer email="omosteven123@gmail.com">protouchbar</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>rclpy</depend>
   <depend>std_msgs</depend>
+
+  <depend>trajectory_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>rclpy</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

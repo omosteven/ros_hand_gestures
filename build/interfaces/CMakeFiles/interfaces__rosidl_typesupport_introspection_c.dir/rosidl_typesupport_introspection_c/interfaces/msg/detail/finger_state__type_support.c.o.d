@@ -10,11 +10,11 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_offsetof.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/detail/finger_state__rosidl_typesupport_introspection_c.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
@@ -37,12 +37,12 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/identifier.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/message_introspection.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/identifier.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/message_introspection.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/msg/detail/finger_state__functions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \

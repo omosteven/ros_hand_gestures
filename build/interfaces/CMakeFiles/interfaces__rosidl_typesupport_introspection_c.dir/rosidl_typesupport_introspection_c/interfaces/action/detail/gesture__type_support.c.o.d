@@ -10,12 +10,12 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_offsetof.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_introspection_c/interfaces/action/detail/gesture__rosidl_typesupport_introspection_c.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_typesupport_introspection_c/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
@@ -38,12 +38,12 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/identifier.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/message_introspection.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/identifier.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/message_introspection.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/action/detail/gesture__functions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
@@ -99,24 +99,24 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/msg/rosidl_generator_c__visibility_control.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/action/detail/gesture__struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/unique_identifier_msgs/unique_identifier_msgs/msg/uuid.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_c__visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_introspection_c.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/unique_identifier_msgs/unique_identifier_msgs/msg/uuid.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__functions.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__type_support.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__rosidl_typesupport_introspection_c.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/unique_identifier_msgs/unique_identifier_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/action/gesture.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/action/detail/gesture__type_support.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/time.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/service_introspection.h
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/builtin_interfaces/builtin_interfaces/msg/time.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/builtin_interfaces/builtin_interfaces/msg/detail/time__functions.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/builtin_interfaces/builtin_interfaces/msg/detail/time__type_support.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/builtin_interfaces/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/builtin_interfaces/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/service_introspection.h

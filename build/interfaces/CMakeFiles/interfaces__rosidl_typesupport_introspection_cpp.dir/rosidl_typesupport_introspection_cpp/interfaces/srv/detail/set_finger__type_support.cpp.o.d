@@ -753,21 +753,21 @@ CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesuppo
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_cpp/interfaces/srv/detail/set_finger__struct.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/field_types.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/identifier.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/service_introspection.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/service_type_support_decl.hpp
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/field_types.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/identifier.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/service_introspection.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/service_type_support_decl.hpp

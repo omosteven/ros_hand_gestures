@@ -23,7 +23,8 @@ setup(
             'controller = controller.controller_node:main',
             'action_server = controller.action_server:main',
             'joint_bridge = controller.joint_bridge_node:main',
-            'keyboard_control = controller.keyboard_control:main'
+            'keyboard_control = controller.keyboard_control:main',
+            'trajectory_bridge = controller.trajectory_bridge:main'
         ],
     },
 )

@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake
+CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake
 
 # The command to remove a file.
-RM = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E rm -f
+RM = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,43 +76,43 @@ CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/ms
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o: rosidl_generator_py/interfaces/msg/_finger_state_s.c
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o: CMakeFiles/interfaces__rosidl_generator_py.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o -MF CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o.d -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o -c /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/msg/_finger_state_s.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o -MF CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o.d -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o -c /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/msg/_finger_state_s.c
 
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/msg/_finger_state_s.c > CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/msg/_finger_state_s.c > CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.i
 
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/msg/_finger_state_s.c -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/msg/_finger_state_s.c -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.s
 
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o: CMakeFiles/interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o: rosidl_generator_py/interfaces/srv/_set_finger_s.c
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o: CMakeFiles/interfaces__rosidl_generator_py.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o -MF CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o.d -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o -c /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/srv/_set_finger_s.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o -MF CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o.d -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.o -c /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/srv/_set_finger_s.c
 
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/srv/_set_finger_s.c > CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/srv/_set_finger_s.c > CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.i
 
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/srv/_set_finger_s.c -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/srv/_set_finger_s.c -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_finger_s.c.s
 
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o: CMakeFiles/interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o: rosidl_generator_py/interfaces/action/_gesture_s.c
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o: CMakeFiles/interfaces__rosidl_generator_py.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o -MF CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o.d -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o -c /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/action/_gesture_s.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o -MF CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o.d -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o -c /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/action/_gesture_s.c
 
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/action/_gesture_s.c > CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/action/_gesture_s.c > CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.i
 
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/action/_gesture_s.c -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/action/_gesture_s.c -o CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.s
 
 # Object files for target interfaces__rosidl_generator_py
 interfaces__rosidl_generator_py_OBJECTS = \
@@ -128,18 +128,18 @@ rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: CMakeFi
 rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_gesture_s.c.o
 rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: CMakeFiles/interfaces__rosidl_generator_py.dir/build.make
 rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: libinterfaces__rosidl_typesupport_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libaction_msgs__rosidl_generator_py.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libbuiltin_interfaces__rosidl_generator_py.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libunique_identifier_msgs__rosidl_generator_py.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libaction_msgs__rosidl_generator_py.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libbuiltin_interfaces__rosidl_generator_py.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libunique_identifier_msgs__rosidl_generator_py.dylib
 rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: libinterfaces__rosidl_generator_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libaction_msgs__rosidl_typesupport_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libaction_msgs__rosidl_generator_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libbuiltin_interfaces__rosidl_typesupport_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libbuiltin_interfaces__rosidl_generator_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libunique_identifier_msgs__rosidl_typesupport_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/libunique_identifier_msgs__rosidl_generator_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/librosidl_runtime_c.dylib
-rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_env/lib/librcutils.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libaction_msgs__rosidl_typesupport_c.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libaction_msgs__rosidl_generator_c.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libbuiltin_interfaces__rosidl_typesupport_c.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libbuiltin_interfaces__rosidl_generator_c.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libunique_identifier_msgs__rosidl_typesupport_c.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/libunique_identifier_msgs__rosidl_generator_c.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/librosidl_runtime_c.dylib
+rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/librcutils.dylib
 rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib: CMakeFiles/interfaces__rosidl_generator_py.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)

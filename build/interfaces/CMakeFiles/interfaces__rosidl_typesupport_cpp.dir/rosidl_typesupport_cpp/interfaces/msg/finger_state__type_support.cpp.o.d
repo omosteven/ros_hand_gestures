@@ -32,9 +32,9 @@ CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfa
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/size_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_cpp/interfaces/msg/detail/finger_state__struct.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
@@ -752,11 +752,11 @@ CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfa
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/identifier.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/visibility_control.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/message_type_support_dispatch.hpp
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/identifier.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_c/rosidl_typesupport_c/type_support_map.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_typesupport_cpp/rosidl_typesupport_cpp/message_type_support_dispatch.hpp

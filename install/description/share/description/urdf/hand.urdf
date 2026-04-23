@@ -8,6 +8,21 @@
         <box size="0.1 0.1 0.02"/>
       </geometry>
     </visual>
+
+    <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+              iyy="0.0001" iyz="0.0"
+              izz="0.0001"/>
+    </inertial>
+
   </link>
 
   <!-- FUNCTION TEMPLATE -->
@@ -20,6 +35,20 @@
         <cylinder length="0.08" radius="0.01"/>
       </geometry>
     </visual>
+
+        <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+              iyy="0.0001" iyz="0.0"
+              izz="0.0001"/>
+    </inertial>
   </link>
 
   <joint name="thumb_joint" type="revolute">
@@ -37,6 +66,20 @@
         <cylinder length="0.1" radius="0.01"/>
       </geometry>
     </visual>
+
+        <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+              iyy="0.0001" iyz="0.0"
+              izz="0.0001"/>
+    </inertial>
   </link>
 
   <joint name="index_joint" type="revolute">
@@ -54,6 +97,20 @@
         <cylinder length="0.11" radius="0.01"/>
       </geometry>
     </visual>
+
+        <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+              iyy="0.0001" iyz="0.0"
+              izz="0.0001"/>
+    </inertial>
   </link>
 
   <joint name="middle_joint" type="revolute">
@@ -71,6 +128,20 @@
         <cylinder length="0.1" radius="0.01"/>
       </geometry>
     </visual>
+
+        <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+              iyy="0.0001" iyz="0.0"
+              izz="0.0001"/>
+    </inertial>
   </link>
 
   <joint name="ring_joint" type="revolute">
@@ -88,6 +159,20 @@
         <cylinder length="0.08" radius="0.01"/>
       </geometry>
     </visual>
+
+        <collision>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+    </collision>
+
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0"
+              iyy="0.0001" iyz="0.0"
+              izz="0.0001"/>
+    </inertial>
   </link>
 
   <joint name="little_joint" type="revolute">
@@ -99,3 +184,39 @@
   </joint>
 
 </robot>
+
+<gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so"/>
+</gazebo>
+
+
+<ros2_control name="HandSystem" type="system">
+  <hardware>
+    <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+  </hardware>
+
+  <joint name="thumb_joint">
+    <command_interface name="position"/>
+    <state_interface name="position"/>
+  </joint>
+
+  <joint name="index_joint">
+    <command_interface name="position"/>
+    <state_interface name="position"/>
+  </joint>
+
+  <joint name="middle_joint">
+    <command_interface name="position"/>
+    <state_interface name="position"/>
+  </joint>
+
+  <joint name="ring_joint">
+    <command_interface name="position"/>
+    <state_interface name="position"/>
+  </joint>
+
+  <joint name="little_joint">
+    <command_interface name="position"/>
+    <state_interface name="position"/>
+  </joint>
+</ros2_control>

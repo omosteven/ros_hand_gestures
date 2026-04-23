@@ -42,6 +42,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/description/launch"
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/description/urdf"
     "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/description/rviz"
+    "/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/description/config"
     )
 endif()
 
@@ -54,7 +55,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/description/environment" TYPE FILE FILES "/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/description/environment" TYPE FILE FILES "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -62,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/description/environment" TYPE FILE FILES "/Users/StevenOmole/miniconda3/envs/ros_env/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/description/environment" TYPE FILE FILES "/Users/StevenOmole/miniconda3/envs/ros_fresh/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

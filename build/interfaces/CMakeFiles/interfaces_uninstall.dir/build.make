@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake
+CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake
 
 # The command to remove a file.
-RM = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E rm -f
+RM = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include CMakeFiles/interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/interfaces_uninstall.dir/progress.make
 
 CMakeFiles/interfaces_uninstall:
-	/Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -P /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -P /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/interfaces_uninstall.dir/codegen:
 .PHONY : CMakeFiles/interfaces_uninstall.dir/codegen

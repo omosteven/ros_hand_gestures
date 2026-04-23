@@ -1,9 +1,9 @@
 CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_finger_state_s.c.o: \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_py/interfaces/msg/_finger_state_s.c \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/Python.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/patchlevel.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pyconfig.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pymacconfig.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/Python.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/patchlevel.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pyconfig.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pymacconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -141,7 +141,7 @@ CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/ms
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pyport.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pyport.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
@@ -164,81 +164,81 @@ CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/ms
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/exports.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pymacro.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pymath.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pymem.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pymem.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pytypedefs.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pybuffer.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/object.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/object.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/objimpl.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/objimpl.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/typeslots.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pyhash.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pydebug.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/bytearrayobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/bytearrayobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/bytesobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/bytesobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/unicodeobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/unicodeobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/code.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/initconfig.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pystate.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pystate.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pyerrors.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pyerrors.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/longobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/longobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/longintrepr.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/boolobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/floatobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/floatobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/complexobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/complexobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/rangeobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/memoryobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/tupleobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/tupleobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/listobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/listobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/dictobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/dictobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/odictobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/enumobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/setobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/setobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/methodobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/methodobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/moduleobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/funcobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/classobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/fileobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/fileobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pycapsule.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pyframe.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pyframe.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/traceback.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/traceback.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/sliceobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/cellobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/iterobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/genobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/descrobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/descrobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/genericaliasobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/warnings.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/warnings.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/weakrefobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/weakrefobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/structseq.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/picklebufobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pytime.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/codecs.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pythread.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pythread.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/exports.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pymacro.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pymath.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pymem.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pymem.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pytypedefs.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pybuffer.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/object.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/object.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/objimpl.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/objimpl.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/typeslots.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pyhash.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pydebug.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/bytearrayobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/bytearrayobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/bytesobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/bytesobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/unicodeobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/unicodeobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/code.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/initconfig.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pystate.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pystate.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pyerrors.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pyerrors.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/longobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/longobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/longintrepr.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/boolobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/floatobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/floatobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/complexobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/complexobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/rangeobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/memoryobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/tupleobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/tupleobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/listobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/listobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/dictobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/dictobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/odictobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/enumobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/setobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/setobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/methodobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/methodobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/moduleobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/funcobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/classobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/fileobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/fileobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pycapsule.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pyframe.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pyframe.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/traceback.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/traceback.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/sliceobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/cellobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/iterobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/genobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/descrobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/descrobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/genericaliasobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/warnings.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/warnings.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/weakrefobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/weakrefobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/structseq.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/picklebufobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pytime.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/codecs.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pythread.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pythread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
@@ -254,39 +254,39 @@ CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/ms
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/context.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/modsupport.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/modsupport.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/compile.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/compile.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pythonrun.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pythonrun.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pylifecycle.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pylifecycle.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/ceval.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/ceval.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/sysmodule.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/sysmodule.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/osmodule.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/intrcheck.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/import.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/import.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/abstract.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/abstract.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/bltinmodule.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pyctype.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pystrtod.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/pystrcmp.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/fileutils.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/fileutils.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/cpython/pyfpe.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/python3.11/tracemalloc.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/context.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/modsupport.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/modsupport.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/compile.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/compile.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pythonrun.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pythonrun.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pylifecycle.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pylifecycle.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/ceval.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/ceval.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/sysmodule.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/sysmodule.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/osmodule.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/intrcheck.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/import.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/import.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/abstract.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/abstract.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/bltinmodule.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pyctype.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pystrtod.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/pystrcmp.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/fileutils.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/fileutils.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/cpython/pyfpe.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/python3.11/tracemalloc.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/ndarrayobject.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/ndarraytypes.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/npy_common.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/numpyconfig.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/_numpyconfig.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/ndarrayobject.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/ndarraytypes.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/npy_common.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/numpyconfig.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/_numpyconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h \
@@ -297,12 +297,12 @@ CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/ms
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/npy_endian.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/npy_cpu.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/utils.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/numpy/core/include/numpy/__multiarray_api.h \
-  /Users/StevenOmole/miniconda3/envs/ros_env/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/npy_endian.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/npy_cpu.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/utils.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/numpy/core/include/numpy/__multiarray_api.h \
+  /Users/StevenOmole/miniconda3/envs/ros_fresh/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_c/interfaces/msg/detail/finger_state__struct.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \

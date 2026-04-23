@@ -1,1 +1,1 @@
-rclpy:std_msgs
+control_msgs:rclpy:std_msgs:trajectory_msgs

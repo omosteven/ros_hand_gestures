@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake
+CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake
 
 # The command to remove a file.
-RM = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E rm -f
+RM = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -71,10 +71,10 @@ CMakeFiles/interfaces: /Users/StevenOmole/Documents/ros_projects/ros_hand_gestur
 CMakeFiles/interfaces: rosidl_cmake/srv/SetFinger_Request.msg
 CMakeFiles/interfaces: rosidl_cmake/srv/SetFinger_Response.msg
 CMakeFiles/interfaces: /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/src/interfaces/action/Gesture.action
-CMakeFiles/interfaces: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalInfo.idl
-CMakeFiles/interfaces: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatus.idl
-CMakeFiles/interfaces: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatusArray.idl
-CMakeFiles/interfaces: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/srv/CancelGoal.idl
+CMakeFiles/interfaces: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/interfaces: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/interfaces: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/interfaces: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/srv/CancelGoal.idl
 
 CMakeFiles/interfaces.dir/codegen:
 .PHONY : CMakeFiles/interfaces.dir/codegen

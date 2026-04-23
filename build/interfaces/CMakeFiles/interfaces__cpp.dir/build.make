@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake
+CMAKE_COMMAND = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake
 
 # The command to remove a file.
-RM = /Users/StevenOmole/miniconda3/envs/ros_env/bin/cmake -E rm -f
+RM = /Users/StevenOmole/miniconda3/envs/ros_fresh/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -83,33 +83,33 @@ CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/gestur
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/action/detail/gesture__type_support.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/lib/python3.11/site-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/lib/python3.11/site-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/interfaces/msg/finger_state.hpp: rosidl_adapter/interfaces/msg/FingerState.idl
 rosidl_generator_cpp/interfaces/msg/finger_state.hpp: rosidl_adapter/interfaces/srv/SetFinger.idl
 rosidl_generator_cpp/interfaces/msg/finger_state.hpp: rosidl_adapter/interfaces/action/Gesture.idl
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/builtin_interfaces/msg/Time.idl
-rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_env/share/unique_identifier_msgs/msg/UUID.idl
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/interfaces/msg/finger_state.hpp: /Users/StevenOmole/miniconda3/envs/ros_fresh/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/Users/StevenOmole/miniconda3/envs/ros_env/bin/python3 /Users/StevenOmole/miniconda3/envs/ros_env/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_cpp__arguments.json
+	/Users/StevenOmole/miniconda3/envs/ros_fresh/bin/python3 /Users/StevenOmole/miniconda3/envs/ros_fresh/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /Users/StevenOmole/Documents/ros_projects/ros_hand_gesture/build/interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/interfaces/msg/detail/finger_state__builder.hpp: rosidl_generator_cpp/interfaces/msg/finger_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/finger_state__builder.hpp
