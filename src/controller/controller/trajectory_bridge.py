@@ -52,7 +52,7 @@ class TrajectoryBridge(Node):
             self.map_state(msg.little),
         ]
 
-        # ⏱️ duration for smooth motion
+        # duration for smooth motion
         point.time_from_start.sec = 1
 
         traj.points.append(point)

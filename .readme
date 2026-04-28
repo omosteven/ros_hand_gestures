@@ -11,6 +11,30 @@
 # Custom Service -> Commands
 # Custom Actions -> Gestures
 
+# Steps
+Create a workspace
+Create controller package
+Create description package
+Create interface package
+
+# Pub/Sub
+Topic: /hand/finger_states
+QoS queue dept: 10
+Runs: Every 0.5 sec with callback
+Custom Interface: FingerState.msg (struct format)
+
+# Service/Client
+Service: /set_finger
+Custom Interface: SetFinger.srv ( Request ... Response )
+Responds to Request
+
+# Action
+Action: /gesture
+Custom Interface: Gesture.action (Goal ... Result ... Feedback )
+
+# Pub/Sub
+Visualization Topic: /joint_states
+Topic used by Rviz & robot_state_publisher
 
 # start hand controller node
  <!-- ros2 run controller controller -->

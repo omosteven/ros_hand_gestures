@@ -54,7 +54,7 @@ class GestureActionServer(Node):
         
         feedback_msg = Gesture.Feedback()
 
-        # excute the finger by finger for a live animation
+        # we excute the finger by finger for a live animation
         step = 1
         for finger, state in gesture.items():
 
